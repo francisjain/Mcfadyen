@@ -1,0 +1,25 @@
+
+
+.small__link{
+    font-size: 14px;
+    line-height: 18.62px;
+    color: #707070;
+}
+
+.heading{
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47.88px;
+    color: #707070;
+}
+
+@media (max-width:768px) {
+    .small__link{
+        display: none;
+    }
+    .heading{
+        font-size: 32px;
+        line-height: 43px;
+    }
+}

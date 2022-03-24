@@ -1,0 +1,36 @@
+.para_h{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #707070;
+
+}
+
+.dis_headind{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #707070;
+}
+
+.dis_side{
+    display: flex;
+    gap: 18px;
+}
+
+.dis_left{
+    margin-left: 75px;
+}
+
+.imgSize{
+    width : 36.53px;
+    height: 35.11px;
+}
+
+@media (max-width:768px) {
+    .dis_left{
+        margin-left: 10px;
+    }
+}
