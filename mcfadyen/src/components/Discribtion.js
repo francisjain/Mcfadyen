@@ -4,15 +4,17 @@ import { Col, Row, Image } from 'react-bootstrap';
 
 function Discribtion() {
     return (
-        <div>
+        <div className="main">
             <Row>
-                <Col md={5}>
-                    <p className="dis_headind mb-2 mt-4">Description</p>
-                    <p className="para_h">Ingredients: Water,
-                        Organic Whole Wheat Flour, Organic Cracked Whole Wheat,
-                        Organic Cane Sugar, Organic Grain and Seed Topping Mix
-                        (Organic Flax Seeds, Organic Sunflower Seeds, Organic Brown Sesame Seeds, Organic Triticale Flakes [Wheat], Organic Barley Flakes, Organic Oat Flakes, Organic Pumpkin Seeds, Organic Rye Flakes, Organic Black Sesame Seeds, Organic Millet, Organic Spelt Flakes [Wheat], Organic Yellow Cornmeal, Organic Kamut Khorasan Wheat Flakes,
-                        Organic Quinoa, Organic Poppy Seeds), Organic Wheat Gluten.</p>
+                <Col md={5} >
+                    <div className="first_dis">
+                        <p className="dis_headind mb-2 mt-4">Description</p>
+                        <p className="para_h">Ingredients: Water,
+                            Organic Whole Wheat Flour, Organic Cracked Whole Wheat,
+                            Organic Cane Sugar, Organic Grain and Seed Topping Mix
+                            (Organic Flax Seeds, Organic Sunflower Seeds, Organic Brown Sesame Seeds, Organic Triticale Flakes [Wheat], Organic Barley Flakes, Organic Oat Flakes, Organic Pumpkin Seeds, Organic Rye Flakes, Organic Black Sesame Seeds, Organic Millet, Organic Spelt Flakes [Wheat], Organic Yellow Cornmeal, Organic Kamut Khorasan Wheat Flakes,
+                            Organic Quinoa, Organic Poppy Seeds), Organic Wheat Gluten.</p>
+                    </div>
                 </Col>
                 <Col md={6} >
                     <div className="dis_left">
@@ -22,7 +24,7 @@ function Discribtion() {
                         </div>
                         <div className="dis_side mb-4">
                             <Image className="imgSize" src="./images/path 102.png" alt=" " />
-                            <p className="para_h">20th - 21st September (Standard shipping) <span className="blue">Select Standard Shipping</span></p>
+                            <div className="blue"> <span className="para_h">20th - 21st September (Standard shipping)</span> <span style={{ color: '#4978E8' }}>Select Standard Shipping</span></div>
                         </div>
                         <div className="dis_side">
                             <Image className="imgSize" src="./images/path 99.png" alt=" " />

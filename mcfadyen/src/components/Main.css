@@ -1,4 +1,11 @@
 .mainb{
-    margin: 25px;
+    margin-left: 50px;
+    overflow: hidden;
 }
 
+@media (max-width:768px) {
+    .mainb{
+        margin-left: 25px;
+        overflow: hidden;
+    }
+}

@@ -1,3 +1,10 @@
+
+.main{
+    position: relative;
+    width: 90vw;
+    height: auto;
+}
+
 .para_h{
     font-family: 'Segoe UI';
     font-style: normal;
@@ -29,8 +36,19 @@
     height: 35.11px;
 }
 
+/* moblie screen */
+
 @media (max-width:768px) {
     .dis_left{
         margin-left: 10px;
+        position: absolute;
+        top: 0;
+    }
+    .first_dis{
+        margin-top: 225px;
+    }
+    .blue{
+        display: flex;
+        flex-direction: column;
     }
 }

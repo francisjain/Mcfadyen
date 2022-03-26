@@ -1,0 +1,20 @@
+.fade_effect{
+ 
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.4);
+display: none;
+}
+
+.fade_open{
+    display: block;
+}
+
+@media (min-width:768px) {
+    .fade_effect{
+        display: none;
+    }
+}

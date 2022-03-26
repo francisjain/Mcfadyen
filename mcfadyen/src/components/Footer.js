@@ -78,7 +78,7 @@ function Footer() {
                                 <p>1800 420 0707</p>
                             </div>
                             <div className="f_two1">
-                                <h6>@</h6>
+                                <h6 style={{ fontSize: '20px', fontWeight: '' }}>@</h6>
                                 <p>customercare@company.com</p>
                             </div>
                         </div>

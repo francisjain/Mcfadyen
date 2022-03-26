@@ -1,6 +1,8 @@
 import React from 'react'
 import "./SlideSide.css"
 import { Col, Row, Card } from 'react-bootstrap';
+import ArrowCircleLeftIcon from '@material-ui/icons/ArrowBack';
+import ArrowCircleRightIcon from '@material-ui/icons/ArrowForward';
 
 function SlideSide() {
     return (
@@ -10,7 +12,7 @@ function SlideSide() {
                     <p className="slide_headind">Related Products</p>
                     <p className="slide_headindtwo">Recommended Products</p>
                     <div className="slider_body ">
-                        <div className="circlebtn p-2"> {" < "}</div>
+                        <div className="circlebtn p-2"> <ArrowCircleLeftIcon/> </div>
                         <div className="slider_card">
                             <Card style={{ width: '18rem' }} className="text-center">
                                 <Card.Img variant="top" src="./images/part2.svg" />
@@ -70,7 +72,7 @@ function SlideSide() {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className="circlebtn p-2"> {" > "}</div>
+                        <div className="circlebtn p-2"> <ArrowCircleRightIcon/></div>
                     </div>
                 </div>
             </Col>
